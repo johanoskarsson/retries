@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.version       = Retries::VERSION
   gem.license       = 'MIT'
 
-  gem.required_ruby_version = '~> 2.4'
+  gem.required_ruby_version = '>= 2.4'
 
   # For running the tests
   gem.add_development_dependency 'rake', '~> 13.0'
